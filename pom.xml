@@ -55,6 +55,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>aws-codedeploy</finalName>
 	</build>
 
 </project>
