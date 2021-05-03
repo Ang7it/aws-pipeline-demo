@@ -7,11 +7,11 @@ phases:
     
   post_build:
     commands:
-      -echo Build completed successfully
       - mvn clean package
+      - echo Build completed successfully
         
 artifacts:
   files:
-    -target/aws-codedeploy.jar
+    - target/aws-codedeploy.jar
   discard-paths: yes        
         
